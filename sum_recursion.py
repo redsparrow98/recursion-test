@@ -4,10 +4,10 @@
 
 def adding_up_to(int_list, index_num):
     """This function is a recursive function. it takes a list argument and a int index
-    argument. if the index is lesser lesser or equal to 0 it returns the first item in
+    argument. if the index is lesser or equal to 0 it returns the first item in
     the list as the sum. this is the base case.
     
-    otherwise it finds the idex item in the list and adds on to it by calling on the
+    otherwise it finds the index item in the list and adds on to it by calling on the
     adding_up_to function again using the same constant list as the argument but this time
     the initial index is deducted by 1.
     
